@@ -1,0 +1,62 @@
+```gitignore
+# ==============================
+# Python Cache & Compiled Files
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# ==============================
+# Virtual Environment
+# ==============================
+
+venv/
+.venv/
+env/
+
+
+# ==============================
+# NLTK Data
+# ==============================
+
+nltk_data/
+
+
+# ==============================
+# Machine Learning / Model Files
+# ==============================
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+saved_model/
+checkpoints/
+runs/
+
+
+# ==============================
+# Dataset
+# ==============================
+
+IMDB Dataset.csv
+
+
+# ==============================
+# IDE / Editor Files
+# ==============================
+
+.vscode/
+.idea/
+
+
+# ==============================
+# OS Generated Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
